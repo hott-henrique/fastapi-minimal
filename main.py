@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get('/')
 async def root():
-    return dict(message='Test counter: 10')
+    return dict(message='Test counter: 11')
